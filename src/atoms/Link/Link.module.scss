@@ -1,0 +1,15 @@
+@import "../../assets/styles/variables.module.scss";
+
+li{
+    // text-decoration: none;
+    a{
+        text-decoration: none;
+        color: $whiteColor;
+        &.active {
+            &-true {
+              color: $primaryColor;
+            }
+           
+          }
+    }
+}

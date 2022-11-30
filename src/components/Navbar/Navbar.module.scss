@@ -1,0 +1,33 @@
+@import "../../assets/styles/variables.module.scss";
+
+nav {
+
+    
+   
+
+        display: flex;
+        flex-direction: row;
+        padding: 0 6rem;
+        align-items: center;
+    
+    
+}
+
+ul {
+  
+ 
+        display: flex;
+        flex: auto;
+        justify-content: space-around;
+        padding-left: 20%;
+        list-style-type: none;
+    
+}
+.menu {
+    
+}
+
+.button {
+    flex: initial;
+
+}

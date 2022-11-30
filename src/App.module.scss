@@ -1,0 +1,17 @@
+@import "./assets/styles/variables.module.scss";
+
+
+
+body {
+     color: $primaryColor;
+     font-family: Poppins, serif;
+     box-sizing: border-box;
+     margin:0;
+     padding:0;
+     height: 100%;
+}
+
+html {
+     height: 100%;
+     margin: 0;
+ }
