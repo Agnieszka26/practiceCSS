@@ -1,0 +1,24 @@
+@import "../../assets/styles/variables.module.scss";
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(../../assets/fonts/Poppins/Poppins-Light.ttf) format('truetype');
+  }
+
+.p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+   
+    &.hasType {
+        &-h1 {
+         
+        }
+       
+    }
+}
+

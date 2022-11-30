@@ -1,0 +1,39 @@
+@import "../../assets/styles/variables.module.scss";
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(../../assets/fonts/Poppins/Poppins-Light.ttf) format('truetype');
+  }
+
+.button{
+    
+    background-color: $primaryColor;
+    border-radius: 2rem;
+    color: $whiteColor;
+    border: 2px solid $primaryColor;
+    min-width: 153px;
+    max-height: 43px;
+    font-family: Poppins, sans-serif;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    cursor: pointer;
+    transition: all 0.2s;
+    
+    &.hasColor {
+        &-secondary {
+          background-color: rgba(0, 0, 0, 0);
+        }
+       
+      }
+      &:hover{
+        background-color: $primaryHoverColor;
+        border: 2px solid $primaryHoverColor;
+        &.hasColor {
+            &-secondary {
+              background-color: rgba(0, 0, 0, 0);
+              border: 2px solid $primaryHoverColor;
+            }
+           
+          }
+      }
+}
+
