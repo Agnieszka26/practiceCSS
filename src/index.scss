@@ -1,0 +1,16 @@
+@import "./assets/styles/variables.module.scss";
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url(../src/assets/fonts/Poppins/Poppins-Light.ttf) format("truetype");
+}
+
+html,
+body {
+  font-family: "Poppins";
+  margin: 0;
+  box-sizing: border-box;
+
+  padding: 0;
+  
+}
