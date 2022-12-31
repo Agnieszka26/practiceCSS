@@ -1,8 +1,7 @@
 @import "../../assets/styles/variables.module.scss";
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins"),
-    url(../../assets/fonts/Poppins/Poppins-Light.ttf) format("truetype");
+  src: local("Poppins"), url(../../assets/fonts/Poppins/Poppins-Light.ttf) format("truetype");
 }
 
 .base {

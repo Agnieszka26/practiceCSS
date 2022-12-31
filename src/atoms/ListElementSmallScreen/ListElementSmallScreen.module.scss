@@ -1,8 +1,12 @@
 @import "../../assets/styles/variables.module.scss";
 
-.listElement {
+.listElementSmallScreen {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
   a {
     align-items: center;
     text-decoration: none;

@@ -1,0 +1,12 @@
+.listSmallScreen {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 9999;
+  padding: 0;
+
+  @media (min-width: 765px) {
+    display: none;
+  }
+}

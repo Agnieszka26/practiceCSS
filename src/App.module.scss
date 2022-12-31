@@ -1,32 +1,8 @@
 @import "./assets/styles/variables.module.scss";
 
 @import "./assets/styles/variables.module.scss";
+
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins"),
-    url(../src/assets/fonts/Poppins/Poppins-Light.ttf) format("truetype");
+  src: local("Poppins"), url(../src/assets/fonts/Poppins/Poppins-Light.ttf) format("truetype");
 }
-
-// html,
-// body {
-//   font-family: "Poppins";
-//   margin: 0;
-//   box-sizing: border-box;
-//   margin: 0;
-//   padding: 0;
-//   border: 6px solid red;
-// }
-
-// body {
-//      color: $primaryColor;
-//      font-family: Poppins, serif;
-//      box-sizing: border-box;
-//      margin:0;
-//      padding:0;
-//      height: 100%;
-// }
-
-// html {
-//      height: 100%;
-//      margin: 0;
-//  }

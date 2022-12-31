@@ -1,0 +1,13 @@
+@import "../../assets/styles/variables.module.scss";
+
+.hamburgerButton {
+    display: flex;
+    color: $whiteColor;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    @media (min-width: 765px) {
+        display: none;
+    }
+}
